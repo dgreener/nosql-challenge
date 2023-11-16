@@ -15,6 +15,10 @@ Once the database was prepared, we began the exploratory analysis and were able 
     
 2. Which establishments in London have a Rating Value greater than or equal to 4?
    - There were 33 establishments in London with a Rating Value greater than or equal to 4
+  
+## Resources
+The following source was referenced for a line of code (cited in the notebook): https://github.com/sarsteg/nosql-challenge/blob/main/NoSQL_analysis.ipynb
+
 
 
 3. What are the top 5 establishments with a Rating Value of 5, sorted by lowest hygiene score, nearest to `Penang Flavours`?
