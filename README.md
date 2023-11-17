@@ -1,28 +1,18 @@
-# Food Safety Challenge
-In an effort to support their restaurant review work, a British magazine has approached us to help evaluate restaurant food safety data put out by the UK government. To do this, we completed the following activities:
+# PyCitySchools Challenge
 
-## Part 1: Database and Jupyter Notebook Set Up
-We imported the restaurant food safety data (.json file) into Jupyter Notebook and then linked this with MongoDB.
+## Overview
+As the new chief data scientist for a city school district, I've been tasked with analyzing student math and reading scores to help guage student and school performance and, in turn, to help inform the school board make budgetary decisions as it prepares for the future. To do this analysis, we are using the Pandas library.
 
-## Part 2: Update the Database
-Next, our client asked us to prepare the database for beginning the analysis. To this end, we added a new restaurant that they were interested in into the database and, also per their request, filtered out restaurants from a particular municipality (Dover).
+## Results
+1. The Highest-Performing School (by % Overall Passing) was: Cabrera High School (91% overall pass rate)
+2. The Lowest-Performing School (by % Overall Passing) was: Rodriguez High School (53% overall pass rate)
+3. Avg. Math Scores for 9th, 10th, 11th, and 12th grades, respectively: <img width="494" alt="Screenshot 2023-11-17 at 12 45 20 AM" src="https://github.com/dgreener/nosql-challenge/assets/131298133/4fcdc78a-a9e3-4049-a21e-f17d3d6659ff">
+4. Avg. Reading Scores by grade:<img width="468" alt="Screenshot 2023-11-17 at 12 47 42 AM" src="https://github.com/dgreener/nosql-challenge/assets/131298133/0239d205-1845-4b18-88ec-e0642688f31d">
+5. Scores by School Spending:
+   <img width="802" alt="Screenshot 2023-11-17 at 12 48 34 AM" src="https://github.com/dgreener/nosql-challenge/assets/131298133/23a9a93c-a1e0-4dd0-94a1-aa99821bc4e2">
+6. Spending Summary per Student, by Grade:<img width="680" alt="Screenshot 2023-11-17 at 12 49 46 AM" src="https://github.com/dgreener/nosql-challenge/assets/131298133/74554d1a-3f87-4c70-97b9-9c0ee447aea9">
+7. Scores by School Size:<img width="799" alt="Screenshot 2023-11-17 at 12 50 43 AM" src="https://github.com/dgreener/nosql-challenge/assets/131298133/d61e973e-6ea1-463f-8ada-af86513d16a4">
+<img width="630" alt="Screenshot 2023-11-17 at 12 51 21 AM" src="https://github.com/dgreener/nosql-challenge/assets/131298133/e380e8f5-bd79-4920-b101-3fa9644fef7d">
 
-## Part 3: Exploratory Analysis
-Once the database was prepared, we began the exploratory analysis and were able to answer the following questions:
+8. Scores by School Type:<img width="630" alt="Screenshot 2023-11-17 at 12 51 21 AM" src="https://github.com/dgreener/nosql-challenge/assets/131298133/35e42ad0-1e65-40fc-b8d4-9cf3a670385c">
 
-1. Which establishments have a hygiene score equal to 20?
-    -There were 41 establishments with a hygeine score of 20
-    
-2. Which establishments in London have a Rating Value greater than or equal to 4?
-   - There were 33 establishments in London with a Rating Value greater than or equal to 4
-  
-## Resources
-The following source was referenced for a line of code (cited in the notebook): https://github.com/sarsteg/nosql-challenge/blob/main/NoSQL_analysis.ipynb
-
-
-
-3. What are the top 5 establishments with a Rating Value of 5, sorted by lowest hygiene score, nearest to `Penang Flavours`?
-    - We were unable to make the code work.
-
-4. How many establishments in each Local Authority Area have a hygiene score of 0?
-    - There were 55 total establishments with a hygeine score of 0.
